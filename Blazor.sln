@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp", "CourseApp\CourseApp.csproj", "{F4EFB3D5-ECDB-4D43-B104-7FEA11447654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseApp.Models", "CourseApp.Models\CourseApp.Models.csproj", "{DB8ED1D5-D967-45AE-80C1-EA70C481F4CD}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CourseApp.SqlServer", "CourseApp.SqlServer\CourseApp.SqlServer.sqlproj", "{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{F4EFB3D5-ECDB-4D43-B104-7FEA11447654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4EFB3D5-ECDB-4D43-B104-7FEA11447654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4EFB3D5-ECDB-4D43-B104-7FEA11447654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8ED1D5-D967-45AE-80C1-EA70C481F4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8ED1D5-D967-45AE-80C1-EA70C481F4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8ED1D5-D967-45AE-80C1-EA70C481F4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8ED1D5-D967-45AE-80C1-EA70C481F4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EC735C-482F-49E1-AB61-0B1A8ABE8DF6}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
